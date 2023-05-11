@@ -1,18 +1,32 @@
 {
   "name": "common-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist",
   "scripts": {
-    "build": "rollup --config"
+    "build": "rollup --config",
+    "test": "jest",
+    "docs:dev": "node ./docs/utils/index.js && cd docs && vitepress dev",
+    "docs:build": "node ./docs/utils/index.js && cd docs && vitepress build",
+    "docs:preview": "node ./docs/utils/index.js && cd docs && vitepress preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-typescript": "^11.1.0",
+    "jest": "^29.5.0",
     "rollup": "^3.21.5",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "2.0.0-beta.61",
+    "vitepress": "1.0.0-alpha.75",
+    "vuepress-plugin-anchor-right": "0.0.1-beta.18"
   }
 }

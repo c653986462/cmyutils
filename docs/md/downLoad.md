@@ -1,0 +1,18 @@
+# 下载类
+
+---
+文件下载 downLoadTextBase64
+---
+
+```javascript
+import { downLoadTextBase64 } from 'common-utils'
+downLoadTextBase64(${fileName}, ${content}, ${type})
+```
+
+- 参数说明
+
+| 参数     | 说明     | 默认                           |
+| -------- | -------- | ------------------------------ |
+| fileName | 下载名称 |                                |
+| content  | 下载内容 |                                |
+| type     | 下载类型 | data:text/plain;charset=utf-8, |

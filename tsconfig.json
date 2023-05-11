@@ -8,7 +8,8 @@
     "lib": ["ESNext", "dom"],
   },
   "include": [
-    "./src"
+    "./docs",
+    "./src",
   ],
   "compileOnSave": false
 }
