@@ -10,7 +10,7 @@ const mySidebar: DefaultTheme.SidebarItem[] = sidebar.map((item) => ({
 }))
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'common-utils doc',
+  title: 'cmyutils doc',
   description: 'A VitePress Site',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

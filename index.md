@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "common-utils doc"
+  name: "cmyutils doc"
   text: "A VitePress Site"
   tagline: My great project tagline
   actions:
